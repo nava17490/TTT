@@ -1,0 +1,63 @@
+10
+
+dir
+0
+svn://155.210.68.122/ttt/appAutobusero/nbproject
+svn://155.210.68.122/ttt
+add
+
+
+
+
+
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+60e10828-67ca-4ce9-aa44-64933bda5ae3
+
+build-impl.xml
+file
+
+
+
+add
+
+genfiles.properties
+file
+
+
+
+add
+
+private
+dir
+
+
+
+add
+
+project.properties
+file
+
+
+
+add
+
+project.xml
+file
+
+
+
+add
+

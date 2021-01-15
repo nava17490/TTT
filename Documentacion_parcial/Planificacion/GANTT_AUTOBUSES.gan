@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="Untitled Gantt Project" company="" webLink="http://" view-date="2011-02-07" view-index="0" gantt-divider-location="441" resource-divider-location="301" version="2.0">
+    <description/>
+    <view zooming-state="default:4" id="gantt-chart"/>
+    <view id="resource-table">
+        <field id="0" name="Nombre" width="55" order="0"/>
+        <field id="1" name="Función" width="44" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <calendar id="1" name="default">
+                <default-week sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+                <overriden-day-types/>
+                <days/>
+            </calendar>
+        </day-types>
+    </calendars>
+    <tasks color="#8cb6ce">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="1" name="Documento especificación de requisitos" color="#8cb6ce" meeting="false" start="2011-02-14" duration="6" complete="0" priority="1" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" name="Realización bocetos de interfaz" color="#8cb6ce" meeting="false" start="2011-02-17" duration="3" complete="0" priority="1" expand="true"/>
+        <task id="3" name="Diagramas UML" color="#8cb6ce" meeting="false" start="2011-02-22" duration="15" complete="0" priority="1" expand="true">
+            <depend id="19" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" name="Diagrama E-R Base de datos" color="#8cb6ce" meeting="false" start="2011-02-22" duration="10" complete="0" priority="1" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" name="Diseño interfaces usuario" color="#8cb6ce" meeting="false" start="2011-03-07" duration="5" complete="0" priority="1" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <task id="31" name="Diseño interfaces control(Web y Android)" color="#8cb6ce" meeting="false" start="2011-03-07" duration="3" complete="0" priority="1" expand="true"/>
+            <task id="32" name="Diseño interfaz Autobus (Android)" color="#8cb6ce" meeting="false" start="2011-03-10" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="33" name="Diseño interfaz Viajero (Web y Android)" color="#8cb6ce" meeting="false" start="2011-03-07" duration="3" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="42" name="Implementacion interfaces usuario" color="#8cb6ce" meeting="false" start="2011-03-07" duration="20" complete="0" priority="1" expand="true">
+            <task id="9" name="Implementación interfaces viajero" color="#8cb6ce" meeting="false" start="2011-03-14" duration="15" complete="0" priority="1" expand="true"/>
+            <task id="29" name="Implementacion interfaces autobuses" color="#8cb6ce" meeting="false" start="2011-03-07" duration="15" complete="0" priority="1" expand="true"/>
+            <task id="30" name="Implementacion interfaces control" color="#8cb6ce" meeting="false" start="2011-03-07" duration="15" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="10" name="Implementación base de datos" color="#8cb6ce" meeting="false" start="2011-03-08" duration="6" complete="0" priority="1" expand="true"/>
+        <task id="19" name="Implementación servidor" color="#8cb6ce" meeting="false" start="2011-03-15" duration="23" complete="0" priority="1" expand="true">
+            <depend id="15" type="2" difference="0" hardness="Strong"/>
+            <task id="34" name="Prototipo 1 (funcionalidad registrar autobus-linea)" color="#8cb6ce" meeting="false" start="2011-03-15" duration="4" complete="0" priority="1" expand="true">
+                <depend id="35" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="35" name="Prototipo 2 (funcionalidad obtener lineas)" color="#8cb6ce" meeting="false" start="2011-03-21" duration="4" complete="0" priority="1" expand="true">
+                <depend id="36" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="36" name="Prototipo 3 (funcionalidad obtener paradas)" color="#8cb6ce" meeting="false" start="2011-03-25" duration="3" complete="0" priority="1" expand="true">
+                <depend id="38" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="38" name="Prototipo 4 (funcionalidad obtener autobuses)" color="#8cb6ce" meeting="false" start="2011-03-30" duration="4" complete="0" priority="1" expand="true">
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="40" name="Prototipo 5 (funcionalidad refrescar informacion autobus)" color="#8cb6ce" meeting="false" start="2011-04-05" duration="4" complete="0" priority="1" expand="true">
+                <depend id="39" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="39" name="Prototipo 6 (funcionalidad refrescar tiempos)" color="#8cb6ce" meeting="false" start="2011-04-11" duration="4" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="47" name="Implementacion aplicacion Autobus" color="#8cb6ce" meeting="false" start="2011-03-21" duration="22" complete="0" priority="1" expand="false">
+            <task id="45" name="Prototipo 1 (Funcionalidad de establecer numero autobus)" color="#8cb6ce" meeting="false" start="2011-03-21" duration="4" complete="0" priority="1" expand="true">
+                <depend id="44" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="44" name="Prototipo 2 (Funcionalidad de establecer linea autobus)" color="#8cb6ce" meeting="false" start="2011-03-25" duration="3" complete="0" priority="1" expand="true">
+                <depend id="25" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="25" name="Prototipo 3 (Funcionalidad de enviar informacion al alcanzar parada)" color="#8cb6ce" meeting="false" start="2011-03-30" duration="4" complete="0" priority="1" expand="true">
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+                <depend id="46" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="46" name="Prototipo 4 (Funcionalidad Indicar Inicio recorrido)" color="#8cb6ce" meeting="false" start="2011-04-05" duration="4" complete="0" priority="1" expand="true">
+                <depend id="43" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="43" name="Prototipo 5 (funcionalidad llamar a control)" color="#8cb6ce" meeting="false" start="2011-04-11" duration="7" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="26" name="Implementacion aplicacion Control" color="#8cb6ce" meeting="false" start="2011-03-23" duration="20" complete="0" priority="1" expand="false">
+            <depend id="28" type="2" difference="0" hardness="Strong"/>
+            <task id="50" name="Prototipo 1 (Funcionalidad Obtener lineas)" color="#8cb6ce" meeting="false" start="2011-03-23" duration="3" complete="0" priority="1" expand="true">
+                <depend id="51" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="51" name="Prototipo 2 (Funcionalidad Obtener detalle linea)" color="#8cb6ce" meeting="false" start="2011-03-28" duration="3" complete="0" priority="1" expand="true">
+                <depend id="52" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="52" name="Prototipo 3 (Funcionalidad obtener autobuses)" color="#8cb6ce" meeting="false" start="2011-03-31" duration="3" complete="0" priority="1" expand="true">
+                <depend id="53" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="53" name="Prototipo 4 (Funcionalidad obtener detalle autobus)" color="#8cb6ce" meeting="false" start="2011-04-05" duration="4" complete="0" priority="1" expand="true">
+                <depend id="54" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="54" name="Prototipo 5 (Funcionalidad obtener mapa autobuses)" color="#8cb6ce" meeting="false" start="2011-04-11" duration="7" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="48" name="Implementacion aplicacion Viajero" color="#8cb6ce" meeting="false" start="2011-03-23" duration="20" complete="0" priority="1" expand="false">
+            <task id="55" name="Prototipo 1 (funcionalidad obtener lineas)" color="#8cb6ce" meeting="false" start="2011-03-23" duration="3" complete="0" priority="1" expand="true">
+                <depend id="56" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="56" name="Prototipo 2 (funcionalidad ver detalle linea)" color="#8cb6ce" meeting="false" start="2011-03-28" duration="3" complete="0" priority="1" expand="true">
+                <depend id="61" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="61" name="Prototipo 3 (funcionalidad ver detalle parada)" color="#8cb6ce" meeting="false" start="2011-03-31" duration="2" complete="0" priority="1" expand="true">
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="57" name="Prototipo 4 (funcionalidad añadir parada a favoritos)" color="#8cb6ce" meeting="false" start="2011-04-04" duration="2" complete="0" priority="1" expand="true"/>
+            <task id="58" name="Prototipo  5 (funcionalidad elimininar favorito)" color="#8cb6ce" meeting="false" start="2011-04-06" duration="3" complete="0" priority="1" expand="true">
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="59" name="Prototipo 6 (funcionalidad listar favoritos)" color="#8cb6ce" meeting="false" start="2011-04-11" duration="2" complete="0" priority="1" expand="true">
+                <depend id="60" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="60" name="Prototipo 7 (funcionalidad reordenar favoritos)" color="#8cb6ce" meeting="false" start="2011-04-13" duration="2" complete="0" priority="1" expand="true">
+                <depend id="62" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="62" name="Prototipo 8 (funcionalidad ver mapa posicion introducida)" color="#8cb6ce" meeting="false" start="2011-04-15" duration="1" complete="0" priority="1" expand="true">
+                <depend id="63" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="63" name="Prototipo 9 (funcionalidad ver mapa posicion parada)" color="#8cb6ce" meeting="false" start="2011-04-18" duration="1" complete="0" priority="1" expand="true">
+                <depend id="64" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="64" name="Prototipo 10 (funcionalidad ver mapa posicion actual)" color="#8cb6ce" meeting="false" start="2011-04-19" duration="1" complete="0" priority="1" expand="true"/>
+        </task>
+        <task id="15" name="Pruebas servidor" color="#8cb6ce" meeting="false" start="2011-04-15" duration="16" complete="0" priority="1" expand="true"/>
+        <task id="16" name="Pruebas aplicación viajeros" color="#8cb6ce" meeting="false" start="2011-04-28" duration="12" complete="0" priority="1" expand="true"/>
+        <task id="27" name="Pruebas aplicacion autobuses" color="#8cb6ce" meeting="false" start="2011-04-05" duration="12" complete="0" priority="1" expand="true"/>
+        <task id="28" name="Pruebas aplicacion Control" color="#8cb6ce" meeting="false" start="2011-04-20" duration="12" complete="0" priority="1" expand="true"/>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <taskdisplaycolumns>
+        <displaycolumn property-id="tpd3" order="0" width="299"/>
+        <displaycolumn property-id="tpd4" order="1" width="58"/>
+        <displaycolumn property-id="tpd5" order="2" width="58"/>
+    </taskdisplaycolumns>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+</project>

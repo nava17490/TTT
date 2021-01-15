@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent">
+  
+  
+  <TextView android:layout_below="@+id/detalle_autobus" 
+  			android:id="@+id/autobus" 
+  			android:paddingTop="10px"
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:textSize="10pt"
+  			android:text="@string/autobus" 
+  			android:layout_alignLeft="@+id/detalle_autobus" 
+  			android:layout_alignRight="@+id/detalle_autobus">
+  </TextView>
+  
+  <TextView android:layout_toRightOf="@+id/autobus" 
+  			android:id="@+id/num_autobus" 
+  			android:layout_height="wrap_content" 
+  			android:textSize="10pt"
+  			android:layout_width="fill_parent"   			
+  			android:layout_alignTop="@+id/autobus" 
+  			android:layout_alignBottom="@+id/autobus">
+  </TextView>
+
+  <TextView android:layout_below="@+id/autobus" 
+  			android:id="@+id/ultima_parada" 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:text="@string/ultima_parada"
+  			android:textSize="10pt" 
+  			android:layout_alignLeft="@+id/autobus" 
+  			android:layout_alignRight="@+id/autobus">
+  </TextView>
+  
+  <TextView android:layout_toRightOf="@+id/ultima_parada" 
+  			android:id="@+id/direccion" 
+  			android:textSize="10pt"
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent"
+  			android:layout_alignTop="@+id/ultima_parada" 
+  			android:layout_alignBottom="@+id/ultima_parada">
+  </TextView>
+  
+  <TextView android:layout_below="@+id/ultima_parada" 
+  			android:id="@+id/velocidad" 
+  			android:textSize="10pt"  			
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:text="@string/velocidad" 
+  			android:layout_alignLeft="@+id/ultima_parada" 
+  			android:layout_alignRight="@+id/ultima_parada">
+  </TextView>
+  
+  <TextView android:layout_toRightOf="@+id/velocidad" 
+  			android:id="@+id/velocidad_dato"
+  			android:textSize="10pt"  			 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent"  
+  			android:layout_alignTop="@+id/velocidad" 
+  			android:layout_alignBottom="@+id/velocidad">
+  </TextView>
+  
+  <TextView android:layout_below="@+id/velocidad" 
+  			android:id="@+id/linea"
+  			android:textSize="10pt"  			 
+  			android:layout_height="wrap_content" 
+  			android:layout_width="fill_parent" 
+  			android:text="@string/linea" 
+  			android:layout_alignLeft="@+id/velocidad" 
+  			android:layout_alignRight="@+id/velocidad">
+  </TextView>
+  <Button android:id="@+id/volver" 
+  		  android:text="@string/volver" 
+  		  android:layout_height="wrap_content" 
+  		  android:layout_width="wrap_content" 
+  		  android:layout_alignParentBottom="true"
+  		  android:layout_alignParentRight="true">
+  </Button>
+  
+  </RelativeLayout>

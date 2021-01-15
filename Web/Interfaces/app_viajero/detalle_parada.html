@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Bienvenido a TTT: Edicion para Viajeros/title>
+  <link href="./styles/general.css" rel="stylesheet" type="text/css" media="screen" />
+  <link rel="shortcut icon" href="./images/icono.ico" type="image/x-icon" />
+  <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript">
+    function initialize() {
+      var latlng = new google.maps.LatLng(40.341331, -1.108232);
+      var myOptions = {
+		zoom: 17,
+		center: latlng,
+		mapTypeId: google.maps.MapTypeId.SATELLITE
+      };
+      var map = new google.maps.Map(document.getElementById("mapa"), myOptions);
+    }
+
+</script>
+
+</head>
+<body onload="initialize()">
+  <div id="logo">
+	<a href="./index.html"><img src="./images/logo.png" alt="logo del sistema" /> </a>
+  </div>
+  <div id="menu">
+    <ul>	
+      
+      <li><a href="./index.html">Mapa</a>
+      <li><a href="./lineas.html">Lineas</a>
+    </ul>
+  </div>
+  
+  <div id="pie">TTT
+  </div>
+  <div id="contenido">LISTADO DE LAS LINEAS DISPONIBLES <!--introducir numero linea con java-->
+    <div id="mapa">
+    </div>
+	<div  id="descripcion">
+		Direccion: Ronda Ambeles, 5<br />
+		Linea 1: 2 min<br />
+			Universidad-->Centro<br />
+		Linea 2: 5 min <br />
+		.............................................<br/>
+	</div>
+  </div>   
+</body>
+</html>

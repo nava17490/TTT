@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--!DOCTYPE TypeManagement 
+[
+	<!ELEMENT TypeManagement (Types?, Locations?, IrresolvableTypes?)>
+	<!ATTLIST TypeManagement projectID ID #REQUIRED>
+
+	<!ELEMENT Locations (Location*)>
+	<!ATTLIST Locations
+			nextID CDATA #IMPLIED >
+
+	<!ELEMENT Location ANY>
+	<!ATTLIST Location
+			locID ID #IMPLIED
+			href CDATA #IMPLIED
+			importProjectLoc CDATA #IMPLIED
+			importProjID CDATA #IMPLIED >
+
+	<!ELEMENT Types (Type*)>
+	<!ELEMENT Type ANY>
+	<!ATTLIST Type
+			id ID #IMPLIED
+			location IDREF #IMPLIED
+			name CDATA #IMPLIED >
+
+	<!ELEMENT IrresolvableTypes (Irresolvable*)>
+	<!ELEMENT Irresolvable ANY>
+	<!ATTLIST Irresolvable 
+		   id CDATA #IMPLIED >
+]--><TypeManagement projectID="DCE.A08C2824-7371-AA84-3EDC-E0713A0FDC58">
+	<Locations nextID="1">
+	<Location locID="T.0" href=".\clases_app_usuario.etd"/></Locations>
+
+   <Types>
+   <Type id="DCE.01606296-6D96-B4CB-28CB-89878A15A6D2" location="T.0" name="Parada"/></Types>
+
+	<IrresolvableTypes>
+	</IrresolvableTypes>
+
+</TypeManagement>

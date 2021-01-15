@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#000000" 
+    android:gravity="bottom">
+    <TextView android:id="@+id/autobus"
+    	android:text="@string/autobus"
+     	android:textColor="#FFFFFF"
+     	android:textSize="12pt"
+     	android:layout_height="wrap_content" android:layout_width="wrap_content">
+    </TextView>
+    <TextView  
+    	android:id="@+id/linea" 
+    	android:text="@string/linea" 
+    	android:textColor="#FFFFFF" 
+    	android:textSize="12pt"
+    	android:layout_below="@id/autobus"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content">
+    </TextView>
+    <TextView  
+    	android:id="@+id/num_linea" 
+    	android:textColor="#FFFFFF" 
+    	android:textSize="12pt"
+    	android:layout_below="@id/autobus"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content">
+    </TextView>
+     <Button android:id="@+id/comenzar"
+    	android:layout_height="wrap_content" 
+    	android:text="@string/comenzar" 
+    	android:textSize="12pt"
+    	android:layout_alignParentBottom="true" 
+		android:layout_alignParentRight="true" android:layout_width="170dip">  
+    </Button>  
+    <Button
+    	android:id="@+id/volver"
+        android:textSize="12pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true" 
+		android:layout_toRightOf="@id/comenzar"
+        android:text="@string/cancelar" android:layout_width="150dip"/>
+    <TextView android:layout_height="wrap_content" android:id="@+id/hora" android:textColor="#FFFFFF" android:textSize="12pt" android:textStyle="bold" android:layout_width="wrap_content" android:text="@string/hora" android:layout_above="@+id/volver" android:layout_centerHorizontal="true"></TextView>
+    	
+</RelativeLayout>

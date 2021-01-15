@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#000000">
+      <TextView android:id="@+id/autobus"
+    	android:text="@string/autobus"
+     	android:textColor="#FFFFFF"
+     	android:textSize="12pt"
+     	android:layout_height="wrap_content" android:layout_width="wrap_content">
+    </TextView> 
+    <TextView  
+    	android:id="@+id/linea" 
+    	android:text="@string/linea" 
+    	android:textColor="#FFFFFF" 
+    	android:textSize="12pt"
+    	android:layout_below="@id/autobus" 
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content">
+    </TextView>
+    <TextView android:id="@+id/sig_parada"  
+    	android:text="@string/sig_parada" 
+    	android:textColor="#FFFFFF" 
+    	android:layout_below="@id/linea"
+    	android:textSize="12pt"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content">
+    </TextView>
+    <TextView android:id="@+id/tiempo_recorrido"  
+    	android:text="@string/tiempo_recorrido" 
+    	android:textColor="#FFFFFF" 
+    	android:layout_below="@id/sig_parada"
+    	android:textSize="12pt"
+    	android:layout_height="wrap_content" 
+    	android:layout_width="wrap_content">
+    </TextView>
+    <TextView android:layout_height="wrap_content" android:id="@+id/hora_recorrido" android:textColor="#FFFFFF" android:textSize="12pt" android:textStyle="bold" android:layout_width="wrap_content" android:text="@string/hora" android:layout_below="@+id/tiempo_recorrido" android:layout_centerHorizontal="true"></TextView>
+    <Button android:textSize="12pt"
+    	android:layout_alignParentBottom="true" 
+		android:layout_alignParentRight="true" android:id="@+id/finalizar" android:text="@string/finalizar" android:layout_height="wrap_content" android:layout_width="150dip">  
+    </Button>  
+    <Button
+    	android:textSize="12pt"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+		android:layout_alignParentBottom="true" 
+		android:layout_toRightOf="@id/finalizar" android:id="@+id/pausar" android:text="@string/pausar" android:layout_width="150dip"/>
+</RelativeLayout>

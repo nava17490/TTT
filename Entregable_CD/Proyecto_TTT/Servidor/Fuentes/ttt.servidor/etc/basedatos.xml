@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>BaseDatos</comment>
+<entry key="user">ttt</entry>
+<entry key="password">ttt</entry>
+<entry key="url">jdbc:mysql://155.210.68.151:3306/ttt</entry>
+<entry key="timeout">150</entry>
+</properties>

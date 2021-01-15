@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+<Placemark><name>Nicanor Villalta (Salida)</name><Point><coordinates>-1.090319,40.332369</coordinates></Point></Placemark>
+<Placemark><name>Nicanor Villalta (INEM)</name><Point><coordinates>-1.092501,40.329064</coordinates></Point></Placemark>
+<Placemark><name>Los Tilos (Colegio)</name><Point><coordinates>-1.095376,40.329464</coordinates></Point></Placemark>
+<Placemark><name>Ramón J. Sender (Kiosko)</name><Point><coordinates>-1.092774,40.332814</coordinates></Point></Placemark>
+<Placemark><name>Av. Sagunto (Entrada La Salle)</name><Point><coordinates>-1.100124,40.332948</coordinates></Point></Placemark>
+<Placemark><name>Av. Aragón (Iglesia S. José)</name><Point><coordinates>-1.103391,40.333401</coordinates></Point></Placemark>
+<Placemark><name>Av. Aragón (Club Ciclista)</name><Point><coordinates>-1.104834,40.332296</coordinates></Point></Placemark>
+<Placemark><name>Av. Aragón (Jardines)</name><Point><coordinates>-1.106618,40.330767</coordinates></Point></Placemark>
+<Placemark><name>Ambulatorio Norte</name><Point><coordinates>-1.103386,40.33045</coordinates></Point></Placemark>
+<Placemark><name>Sanz Gadea (Frente Pl. Constitución)</name><Point><coordinates>-1.108023,40.330017</coordinates></Point></Placemark>
+<Placemark><name>Sanz Gadea (Frente Playa de Aro)</name><Point><coordinates>-1.108375,40.33153</coordinates></Point></Placemark>
+<Placemark><name>Ruiz Jarabo (Hospital)</name><Point><coordinates>-1.107841,40.333417</coordinates></Point></Placemark>
+<Placemark><name>Ruiz Jarabo (Esq. Parque)</name><Point><coordinates>-1.107033,40.335198</coordinates></Point></Placemark>
+<Placemark><name>Av. Sagunto (Barrabás)</name><Point><coordinates>-1.104405,40.336306</coordinates></Point></Placemark>
+<Placemark><name>Salida Viaducto</name><Point><coordinates>-1.10529,40.340438</coordinates></Point></Placemark>
+<Placemark><name>Estación de Autobuses</name><Point><coordinates>-1.104587,40.342298</coordinates></Point></Placemark>
+<Placemark><name>Los Arcos (Dir. Viñas)</name><Point><coordinates>-1.105105,40.344389</coordinates></Point></Placemark>
+<Placemark><name>Ctra. Alcañiz (Rep. Los Arcos)</name><Point><coordinates>-1.108806,40.347002</coordinates></Point></Placemark>
+<Placemark><name>Ctra. Alcañiz (C.C. Matadero)</name><Point><coordinates>-1.109257,40.34831</coordinates></Point></Placemark>
+<Placemark><name>Ctra. Alcañiz (Cruce C/ Valderrobles)</name><Point><coordinates>-1.108989,40.350275</coordinates></Point></Placemark>
+<Placemark><name>Universidad</name><Point><coordinates>-1.109989,40.351599</coordinates></Point></Placemark>
+</kml>

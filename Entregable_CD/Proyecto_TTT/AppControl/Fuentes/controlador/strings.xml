@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Bienvenido a TTT!</string>
+    <string name="app_name">TTT Control</string>
+    <string name="BuscarDireccion">Buscar dirección</string>
+    <string name="Ubicacion">Ubicación actual</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="AddFavoritos">Añadir a favoritos</string>
+    <string name="Mapa">Mapa</string>
+    <string name="Volver">Volver</string>
+    <string name="detalle_autobus">Detalle de Autobus</string>
+    <string name="autobus">Autobus:</string>
+    <string name="num_autobus">158</string>
+    <string name="ultima_parada">Ultima Parada: </string>
+    <string name="direccion">C/ Los Tilos </string>
+    <string name="velocidad">Velocidad media:</string>
+    <string name="velocidad_dato">18 km/h</string>
+    <string name="linea">ajfjdsaklfjklajfkajfk</string>
+    
+</resources>

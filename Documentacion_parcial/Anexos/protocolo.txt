@@ -1,0 +1,13 @@
+id_mensaje-->	1-->get paradas			-->devuelve paradas cercanas a una posicion	-->viajero
+		2-->get lineas			-->lista las lineas todas			-->todos
+		3-->get autobuses		-->devuelve datos autobuses (lista) todos o pertenecientes a una parada--> viajero y control
+		4-->refrescar tiempos		-->devuelve tiempos actualizados llegada autobuses cada linea que pasa por esa parada--> viajero
+		5-->refrescar info bus		-->devuelve info del bus (detalle) --> control (se acciona mediante boton)
+		6-->establecer info autobus	-->guarda la info del autobus --> lo manda el autobus
+		7-->conectar
+		8-->desconectar
+remitente/destinatario
+posicion--> coordenadas de una determinada parada o de una localizacion del viajero
+info_devuelta-->List de instancias
+
+

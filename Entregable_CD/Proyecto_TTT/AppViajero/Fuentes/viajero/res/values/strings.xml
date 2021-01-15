@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Bienvenido a TTT!</string>
+    <string name="app_name">TTT Viajero</string>
+    <string name="BuscarDireccion">Buscar dirección</string>
+    <string name="Ubicacion">Ubicación actual</string>
+    <string name="Actualizar">Actualizar</string>
+    <string name="AddFavoritos">Añadir a favoritos</string>
+    <string name="Mapa">Mapa</string>
+    <string name="Volver">Volver</string>
+    
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:text="@string/introducir"/>
+    <EditText
+        android:id="@+id/autobus"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12pt"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="number"
+        android:layout_below="@id/label"/>
+    <Button
+        android:id="@+id/aceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/autobus"
+        android:textSize="12pt"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dip"
+        android:text="@string/aceptar" />
+    <Button
+    	android:id="@+id/cancelar"
+        android:layout_width="wrap_content"
+        android:textSize="12pt"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/aceptar"
+        android:layout_alignTop="@id/aceptar"
+        android:text="@string/cancelar" />
+</RelativeLayout>

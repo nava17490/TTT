@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, main!</string>
+    <string name="app_name">TTT Aplicación Autobús</string>
+    <string name="autobus">Autobus: 155</string>
+    <string name="num_autobus">122</string>
+    <string name="linea">Linea: L-7 CENTRO-ENSANCHE</string>
+    <string name="tiempo_recorrido">Tiempo Recorrido: 0:16</string>
+    <string name="dato_tiempo_recorrido">0h16\'</string>
+    <string name="hora">15:26</string>
+    <string name="comenzar">Comenzar</string>
+    <string name="num_linea">1</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="cancelar">Volver</string>
+    <string name="introducir">Introduzca el numero de autobus aqui:</string>
+    <string name="gps_signal_not_found">SEÑAL GPS NO ENCONTRADA</string>
+    <string name="gps_signal_found">SEÑAL GPS ENCONTRADA</string>
+    <string name="sig_parada">Proxima Parada: Nicanor Villalta (Salida)</string>
+    <string name="dato_sig_parada">Nicanor Villalta (salida)</string>
+    <string name="finalizar">Finalizar</string>
+    <string name="pausar">Pausar</string>
+</resources>
